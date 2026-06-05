@@ -18,19 +18,19 @@ public class Exercicio4 {
 
         double[] vect = new double[n];
 
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < vect.length; i++) {
             System.out.print("Digite um numero: ");
             vect[i] = scanner.nextDouble();
         }
 
         double sum = 0.0;
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < vect.length; i++) {
             sum += vect[i];
         }
-        double average = sum / n;
+        double average = sum / vect.length;
 
         System.out.print("VALORES = ");
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < vect.length; i++) {
             System.out.print(vect[i] + "  ");
         }
         System.out.println();
