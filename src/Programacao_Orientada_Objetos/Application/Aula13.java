@@ -34,7 +34,7 @@ public class Aula13 {
             System.out.println("Update!");
         }
 
-        Account2 acc6 = new Account2(1005, "Bethut", 1000.0);
+        Account2 acc6 = new Account2(1005, "Bethur", 1000.0);
         acc6.withdraw(200.0);
         System.out.println(acc6.getBalance());
 
