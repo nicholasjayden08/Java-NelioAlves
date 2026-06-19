@@ -34,5 +34,6 @@ public class Aula15 {
             System.out.println("Input Error!");
         }
         System.out.println("***METHOD2 END***");
+        System.out.println();
     }
 }
