@@ -1,0 +1,9 @@
+package Programacao_Orientada_Objetos_PT2.Model.Exceptions;
+
+public class BusinessException extends RuntimeException {
+    private static final long serialVersionUID = 1L;
+
+    public BusinessException(String msg) {
+        super(msg);
+    }
+}
