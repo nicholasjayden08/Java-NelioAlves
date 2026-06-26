@@ -5,7 +5,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 public class Aula19 {
-    static void main() {
+    public static void main() {
 
         String[] lines = new String[]{"Good Morning", "Good afternoon", "Good Night"};
 
