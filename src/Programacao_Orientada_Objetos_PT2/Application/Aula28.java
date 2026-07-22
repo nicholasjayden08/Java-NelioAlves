@@ -15,9 +15,9 @@ public class Aula28 {
         list.add(new Product1("Tablet", 450.00));
         list.add(new Product1("HD Case", 80.00));
 
-        Predicate<Product1> pred = p -> p.getPrice() >= 100.00;
+        double min = 100.00;
 
-        list.removeIf(pred);
+        list.removeIf(p -> p.getPrice() >= min);
 
         for (Product1 p : list) {
             System.out.println(p);
